@@ -6,6 +6,8 @@ namespace MyMusic.Data.Configurations
 {
     public class ArtistConfiguration : IEntityTypeConfiguration<Artist>
     {
+                    //Maroun Change another one
+
         public void Configure(EntityTypeBuilder<Artist> builder)
         {
             builder

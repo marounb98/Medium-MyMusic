@@ -9,6 +9,12 @@ namespace MyMusic.Core.Services
             //Maroun Change another one
 
         Task<IEnumerable<Artist>> GetAllArtists();
+
+                    //Maroun Change another one
+
+
+            //Maroun Change another one
+
         Task<Artist> GetArtistById(int id);
         Task<Artist> CreateArtist(Artist newArtist);
         Task UpdateArtist(Artist artistToBeUpdated, Artist artist);
