@@ -6,6 +6,8 @@ namespace MyMusic.Core.Services
 {
     public interface IArtistService
     {
+            //Maroun Change another one
+
         Task<IEnumerable<Artist>> GetAllArtists();
         Task<Artist> GetArtistById(int id);
         Task<Artist> CreateArtist(Artist newArtist);
