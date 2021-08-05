@@ -6,6 +6,8 @@ namespace MyMusic.Core.Repositories
 {
     public interface IArtistRepository : IRepository<Artist>
     {
+
+        //A New change
         Task<IEnumerable<Artist>> GetAllWithMusicsAsync();
         Task<Artist> GetWithMusicsByIdAsync(int id);
     }

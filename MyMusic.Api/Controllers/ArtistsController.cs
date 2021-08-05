@@ -14,7 +14,7 @@ namespace MyMusic.Api.Controllers
     public class ArtistsController : ControllerBase
     {
 
-        //This is a new change
+        //This is a new CHANGE
         private readonly IArtistService _artistService;
         private readonly IMapper _mapper;
         
