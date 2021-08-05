@@ -16,7 +16,8 @@ namespace MyMusic.Api.Controllers
     {
         private readonly IMusicService _musicService;
         private readonly IMapper _mapper;
-        
+
+        //This is another new change  
         public MusicsController(IMusicService musicService, IMapper mapper)
         {
             this._mapper = mapper;
