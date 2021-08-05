@@ -13,6 +13,8 @@ namespace MyMusic.Api.Controllers
     [ApiController]
     public class ArtistsController : ControllerBase
     {
+
+        //This is a new change
         private readonly IArtistService _artistService;
         private readonly IMapper _mapper;
         
